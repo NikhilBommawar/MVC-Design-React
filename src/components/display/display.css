@@ -1,0 +1,13 @@
+#display-calc-1{
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    border-color: blue;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-left: 70px  ;
+}

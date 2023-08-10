@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Calculator from './components/calculator/calculator';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+   <>
+      <h2> Calc - 1 </h2>
+     <div className="calculator">
+      <Calculator id="calc-1" options=""></Calculator>
     </div>
+    <h2> Calc - 2 </h2>
+    <div className="calculator">
+        <Calculator id="calc-1" options=""></Calculator>
+    </div>
+    </>
   );
 }
 
